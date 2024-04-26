@@ -1,5 +1,5 @@
 body {
-  background-color: #2c426346 !important;
+  background-color: #7ba6e68e !important;
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-style: normal;
@@ -92,10 +92,8 @@ a:hover {
   /* Remove underline */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   /* Add box shadow */
-  background-color: #3D5777;
+  background-color: #3d577754;
   /* Change background color on hover */
-  border: #3D5777 solid 1px;
-  /* Add border on hover */
   border-radius: 5px;
   /* Add border radius */
   padding: 5px;
@@ -127,6 +125,32 @@ img {
   margin: auto;
 }
 
+#searchInput {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#searchBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+#showAllBtn{
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+
+}
 
 #backToTopBtn {
   display: none;
@@ -141,7 +165,7 @@ img {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 20%;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 

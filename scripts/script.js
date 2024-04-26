@@ -22,7 +22,7 @@ function searchMeal() {
 function createMealCard(meal) {
     const card = document.createElement('div');
     card.classList.add('card', 'col-lg-4', 'col-md-6', 'col-12');
-    card.style.width = '28rem';
+    card.style.width = '30rem';
 
     const image = document.createElement('img');
     image.src = meal.strMealThumb;
